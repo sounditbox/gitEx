@@ -6,6 +6,6 @@ public class Main {
 	 System.out.println("Hello World!");
 	 System.out.println("How are you?!");
      Counter c = new Counter();
-     System.out.println(++c.count);
+     System.out.println(c.inc());
     }
 }
