@@ -10,4 +10,6 @@ public class Counter {
     public int inc(){
         return ++this.count;
     }
+
+    public int dec() {return  --this.count;}
 }
